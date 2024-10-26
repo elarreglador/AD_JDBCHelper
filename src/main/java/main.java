@@ -91,7 +91,7 @@ public class main {
 	}
 
 
-	// MOSTRAR EL CONTENIDO DE UN ResultSet por columnas
+	// MOSTRAR EL CONTENIDO DE UN ResultSet POR COLUMNAS
 	public static void showResultSet(ResultSet res) throws SQLException {
 		ResultSetMetaData metadata = res.getMetaData();
 		int columnas = metadata.getColumnCount();
