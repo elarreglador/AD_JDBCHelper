@@ -6,7 +6,7 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class main {
+public class JDBCHelper {
 
 	public static void main(String[] args) throws Exception {
 
